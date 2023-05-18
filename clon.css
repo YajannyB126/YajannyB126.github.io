@@ -1,0 +1,834 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    height: 3700px;
+}
+
+li{
+list-style: none;
+}
+
+.navbar{
+  background-color: white;
+    width: 100%;
+    height: 68px;
+    display: flex;
+    justify-content: flex-start;
+    top: 0px;
+    gap: 20px;
+
+}
+
+.enlaces{
+
+    display: flex;
+    justify-content: start;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.navbar a{
+    font-family:adobe-clean-ux,adobe-clean,Source Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+    margin: 0px 5px;
+    padding: 7px;
+    font-size: 14px;
+    
+}
+
+
+
+.navegacion{
+    background-color: aqua;
+}
+
+.navegacion ul{
+    
+    margin-right: 100px;
+}
+
+.navegacion a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    align-items: center;
+
+    }  
+
+
+#video-principal1{
+    
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    
+}
+
+
+
+.fondo{
+  display: flex;
+  width: 100%;
+  height: 580px;
+  background-size: repeat;
+  font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+  
+
+
+.contenedor-logo{
+margin-left: 10px;
+align-items: center;
+}
+
+.img-logo{
+    height: 25px;
+    height: 20px;
+}
+
+.contenedor-texto1{
+    position:absolute;
+    left: 0px;
+    display: block;
+    margin-top: 180px;
+    margin-left: 5%;
+    width: 50%;
+
+
+
+}
+
+
+.texto-start h2{
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.texto-start h1{
+    margin-top: 20px;
+    font-size: 40px;
+
+}
+
+.texto-start h3{
+    margin-top: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.btn1{
+    margin-top: 33px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.btn-1{
+    display: flex;
+    height: 30px;
+    width: 130px;  
+    background-color: rgb(43, 144, 217);
+    color: white;
+    cursor: pointer;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.contenedor-texto2{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 25px;
+    
+}
+
+.contenedor-texto2 a{
+    color: rgb(13, 19, 186);
+    font-size: 16px;
+}
+
+.separador1{
+    display: flex;
+    height: 1px;
+    width: 100%;
+    background-color:#E8D4CF;
+    margin-top: 10px;
+}
+
+/*Parte 1 de las imagenes en fila*/
+
+.contenedor-texto3{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin: 40px;
+    gap: 25px;
+}
+
+.inf-texto1{
+    display: flex;
+    background-image: url(img/chico-en-la-nieve.jpg);
+    height: 500px;
+    width: 34%;
+    display: block;
+    background-size: cover;
+    
+}
+
+.inf-texto1 h2{
+    font-size: 25px;
+    margin: 15px;
+    margin-top: 40px;
+    background-size: cover;
+  
+}
+
+.inf-texto1 h3{
+    font-size: 17px;
+    margin: 15px;
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.inf-texto1 a{
+    font-size: 15px;
+    margin: 18px;
+    margin-top: 10px;
+}
+
+
+
+.inf-texto2{
+    display: flex;
+    background-image: url(img/noche-estrellada.jpg);
+    height: 500px;
+    width: 34%;
+    display: block;
+    background-size: cover;
+    color: rgb(242, 238, 233);
+
+
+}
+
+.inf-texto2 h2{
+    font-size: 25px;
+    margin: 15px;
+    margin-top: 40px;
+}
+
+.inf-texto2 h3{
+    font-size: 17px;
+    margin: 15px;
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.inf-texto2 a{
+    font-size: 15px;
+    margin: 18px;
+    margin-top: 10px;
+}
+
+
+.inf-texto3{
+    display: flex;
+    background-image: url(img/moradoclaro.jpeg);
+    height: 500px;
+    width: 34%;
+    display: block;
+}
+
+.container-texto{
+    margin-top: 40px;
+}
+
+
+.inf-texto3 h2{
+    font-size: 25px;
+    margin: 15px;
+}
+
+.inf-texto3 h3{
+    font-size: 17px;
+    margin: 15px;
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.separador2{
+    display: flex;
+    height: 1px;
+    width: 80%;
+    background-color: black;
+    margin: 15px;
+}
+
+.separador3{
+    display: flex;
+    height: 1px;
+    width: 80%;
+    background-color: black;
+    margin: 15px;
+}
+
+.inf-texto3 a{
+    font-size: 15px;
+    margin: 18px;
+    margin-top: 10px;
+    display: block;
+}
+
+/*Parte 2 de las imagenes en fila*/
+
+.contenedor-texto4{
+    display: flex;
+    margin-top: 50px;
+    margin: 40px;
+    gap: 25px;
+    
+}
+
+.inf-texto4{
+    display: flex;
+    background-image: url(img/chica-nadando.jpg);
+    height: 500px;
+    width: 67%;
+    display: block;
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.inf-texto4 h2{
+    margin: 25px;
+}
+
+.inf-texto4 h3{
+    margin: 25px;
+}
+
+.inf-texto4 a{
+    margin: 25px;
+}
+
+.inf-texto5{
+    display: flex;
+    background-image: url(img/Homepage.Acrobat_powerhouse_pod.background.420x500.jpg.img.jpg);
+    height: 500px;
+    width: 33%;
+    display: block;
+}
+
+
+.inf-texto5 h2{
+    margin: 25px;
+}
+
+.inf-texto5 h3{
+    margin: 25px;
+}
+
+.inf-texto5 a{
+    margin: 25px;
+}
+
+/*Imagen que abarca todo el ancho de la pantalla*/
+.contenedor-texto5{
+    display: flex;
+    height: 650px;
+    width: 100%;
+    background-image: url(img/DC-triple-tablet.jpg);
+    border-image-repeat: none;
+    background-size: cover;
+    
+}
+
+.inf-texto6{
+    margin-left: 100px;
+    margin-top: 210px;
+    width: 30%;
+}
+
+.inf-texto6 h1{
+    font-size: 40px;
+
+}
+
+.inf-texto6 h3{
+    margin-top: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.inf-texto6 a{
+    display: flex;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.btn2{
+    display: flex;
+    gap: 20px;
+}
+
+.btn-3{
+    display: flex;
+    height: 30px;
+    width: 180px;  
+    background-color: rgb(43, 144, 217);
+    color: white;
+    cursor: pointer;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Parte 3 de las imagenes en fila*/
+
+.contenedor-texto6{
+    display: flex;
+    margin-top: 50px;
+    margin: 40px;
+    gap: 25px;
+
+}
+
+.inf-texto7{
+    display: flex;
+    background-color: #d73d3d;
+    height: 500px;
+    width: 67%;
+    display: block;
+    
+}
+
+.inf-texto7 h2{
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size: 18px;
+
+
+}
+
+.inf-texto7 h1{
+    margin-top: 14px;
+    margin-left:20px;
+    font-size: 26px;
+}
+
+.inf-texto7 h3{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+
+}
+
+.inf-texto7 a{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+
+.inf-texto8{
+    display: flex;
+    background-color: #e61919;
+    height: 500px;
+    width: 67%;
+    display: block;
+}
+
+
+.inf-texto8 h2{
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.inf-texto8 h1{
+    margin-top: 14px;
+    margin-left:20px;
+    font-size: 26px;
+}
+
+.inf-texto8 h3{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.inf-texto8 a{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+
+
+.inf-texto9{
+    display: flex;
+    height: 500px;
+    width: 67%;
+    display: block;
+    background-color: rgb(64, 17, 65);
+}
+
+.inf-texto9 h3{
+    margin-top: 35px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.separador4{
+    display: flex;
+    height: 1px;
+    width: 80%;
+    background-color: black;
+    margin: 15px;
+}
+
+.separador5{
+    display: flex;
+    height: 1px;
+    width: 80%;
+    background-color: black;
+    margin: 15px;
+}
+
+.inf-texto9 a{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+/*En esta parte inicia el código para la creación del footer*/
+
+.contenedor-footer{
+    display: flex;
+    height: 400px;
+    width: 100%;
+    background-color: #FAFAFA;
+    display: inline-block;
+}
+
+
+.texto-footer{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 25px;
+    gap: 90px;
+    
+}
+
+.footer1 h3{
+    display: flex;
+    font-size: 16px;   
+}
+.footer1 p{
+    display: flex;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+
+.footer2 h3{
+    display: flex;
+    font-size: 16px;
+}
+.footer2 p{
+    display: flex;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+
+.footer3 h3{
+    display: flex;
+    font-size: 16px;
+}
+.footer3 p{
+    display: flex;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+
+.footer4 h3{
+    display: flex;
+    font-size: 16px;
+}
+.footer4 p{
+    display: flex;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+
+.footer5 h3{
+    display: flex;
+    font-size: 16px;
+}
+.footer5 p{
+    display: flex;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.subtitulo{
+    display: flex;
+    margin-top: 30px;
+    display: flex;
+}
+
+
+.separador6{
+    display: flex;
+    height: 1px;
+    width: 96%;
+    background-color: rgba(0, 0, 0, 0.45);
+    margin-top: 89px;
+    margin-left: 30px;
+    
+}
+
+.separador7{
+    display: flex;
+    height: 1px;
+    width: 96%;
+    background-color: rgba(0, 0, 0, 0.45);
+    margin-top: 10px;
+    margin-left: 30px;
+    
+}
+
+.productos{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 25px;
+}
+
+.productos p{
+    display: flex;
+    font-size: 14px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(20, 13, 13, 0.716);
+}
+
+
+/*Estilo para CELULARES*/
+
+@media screen and (max-width: 767px) {
+ 
+    header{
+    display: block;
+    width: 100%;
+      }
+
+    .navbar{
+        display: block;
+        width: 100%;
+    }
+
+    .contenedor-logo{
+        display: block;
+        width: 100%;
+    }
+    .contenedor-enlaces{
+        display: block;
+        width: 100%;
+    }
+    .contenedor-inicio{
+        display: block;
+        width: 100%;
+    }
+
+    .contenedor-texto1{
+        display: block;
+        width: 100%;
+    }
+    .texto-start{
+        display: flex;
+    }
+   
+    .contenedor-texto2{
+        display: block;
+        width: 100%;
+    }
+    .separador1{
+        display: block;
+        width: 100%;
+        
+    }
+    .contenedor-texto3{
+        display: block;
+        width: 100%;
+    }
+
+    .contenedor-texto4{
+        display: block;
+        width: 100%;
+    }
+      
+    .contenedor-texto5{
+        display: block;
+        width: 100%;
+    }
+    .contenedor-texto6{
+        display: block;
+        width: 100%;
+    }
+    .texto-footer{
+        display: block;
+        width: 100%;
+        
+    }
+
+    .productos{
+        display: block;
+        width: 100%;
+        
+    }
+    h3{
+        font-size:10px ;
+    }
+    h2{
+        font-size: 8px;
+        }
+        h1{
+            font-size: 8px;
+        }
+      
+      
+      }
+
+
+  
+
+    
+      
+     
+    
+    
+    
+    
+    /* Estilos para TABLETS */
+    @media (min-width: 768px) and (max-width: 1023px) {
+      header {
+        padding: 15px;
+      }
+      
+      .contenedor-enlaces{
+        display: block;
+        width: 100%;
+    }
+    .contenedor-inicio{
+        display: block;
+        width: 100%;
+    }
+
+    .contenedor-texto1{
+        display: block;
+        width: 100%;
+    }
+   
+   
+    .contenedor-texto2{
+        display: block;
+        width: 100%;
+    }
+    .separador1{
+        display: block;
+        width: 100%;
+        
+    }
+    .contenedor-texto3{
+        display: block;
+        width: 100%;
+    }
+
+    .contenedor-texto4{
+        display: block;
+        width: 100%;
+    }
+      
+    .contenedor-texto5{
+        display: block;
+        width: 100%;
+    }
+    .contenedor-texto6{
+        display: block;
+        width: 100%;
+    }
+    .texto-footer{
+        display: block;
+        width: 100%;
+        
+    }
+
+    .productos{
+        display: block;
+        width: 100%;
+        
+    }
+    h3{
+        font-size:10px ;
+    }
+    h2{
+        font-size: 8px;
+        }
+        h1{
+            font-size: 8px;
+        }
+      
+      
+      
+      }
+      
+      
+      
+   
+    
+    
+     
+    /* Estilos para COMPUTADORA */
+    @media (min-width: 1024px) {
+      
+     
+    header {
+        
+       
+    padding: 20px;
+      }
+      
+      .contenedor-enlaces{
+        display: block;
+        width: 100%;
+    }
+    .contenedor-inicio{
+        display: block;
+        width: 100%;
+    }
+      
+      }
+      
+     
+    nav{
+    display: block;
+      }
+      
+        
+    
+   
